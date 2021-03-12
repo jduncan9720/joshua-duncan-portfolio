@@ -5,6 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Row, Col, Container } from "../Grid/index";
 import "./style.css"
 
+function darkLight (){
+alert("change color")
+}
+
+
 function Navigation() {
   return (
     <Container>
@@ -28,6 +33,7 @@ function Navigation() {
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link onClick={darkLight}><FontAwesomeIcon icon='palette' /></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
