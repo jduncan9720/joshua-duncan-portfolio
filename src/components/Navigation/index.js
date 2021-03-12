@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Row, Col, Container } from "../Grid/index";
+import { Row, Col, Container, Containerfluid} from "../Grid/index";
 import "./style.css"
 
 function darkLight (){
@@ -12,8 +12,9 @@ alert("change color")
 
 function Navigation() {
   return (
-    <Container>
-      <Navbar collapseOnSelect expand="lg" variant="light">
+    
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Container>
         <Navbar.Brand href="/home">JOSHUA DUNCAN</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -36,8 +37,9 @@ function Navigation() {
             <Nav.Link onClick={darkLight}><FontAwesomeIcon icon='palette' /></Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        </Container>
       </Navbar>
-    </Container>
+    
   )
 }
 
