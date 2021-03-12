@@ -1,8 +1,10 @@
 .social{
-    color:blue !important;
-    font-size: small;
-}
-.social:hover{
     color:rgb(0, 174, 255) !important;
 }
+.social:hover{
+    color:rgb(235, 127, 55) !important;
+}
 
+.navMain {
+    background-color: black;
+}

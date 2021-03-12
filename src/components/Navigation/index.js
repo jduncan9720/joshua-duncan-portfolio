@@ -13,7 +13,7 @@ alert("change color")
 function Navigation() {
   return (
     
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar className="navMain" collapseOnSelect expand="lg" variant="dark">
       <Container>
         <Navbar.Brand href="/home">JOSHUA DUNCAN</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -21,12 +21,12 @@ function Navigation() {
           <Nav className="mr-auto">
             <Nav.Link className="social"
               href="https://github.com/jduncan9720">
-              <FontAwesomeIcon icon={['fab', 'github']} /> Github: jduncan9720
+              <FontAwesomeIcon style={{color: 'white'}} icon={['fab', 'github']} /> Github: jduncan9720
             </Nav.Link>
             <Nav.Link
               className="social"
               href="https://www.linkedin.com/in/jduncan-9720/">
-              <FontAwesomeIcon icon={['fab', 'linkedin']} /> LinkedIn: jduncan-9720
+              <FontAwesomeIcon style={{color: 'white'}} icon={['fab', 'linkedin']} /> LinkedIn: jduncan-9720
             </Nav.Link>
           </Nav>
           <Nav>

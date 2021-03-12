@@ -1,8 +1,25 @@
 .col-bio{
-    margin-left: 3rem;
     color: rgb(213, 226, 224);
 }
 
 .main {
     margin-top: 4rem;
+}
+
+.homeBack {
+    background-image: url("../images/bgimage3.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landingDiv {
+    padding-top: 100px;
+}
+
+.mainName {
+    font-size: 100px;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 10px 10px 8px black;
 }
