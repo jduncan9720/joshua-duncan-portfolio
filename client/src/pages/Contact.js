@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Container, Row, Col } from '../components/Grid'
+import { Container, Row, Col, Image } from "react-bootstrap"
 import axios from "axios";
 
 export default function Contact() {
@@ -39,7 +39,7 @@ export default function Contact() {
       }
 
         return (
-            <div>  
+            <Container>  
             {console.log(formData)} 
             <form onSubmit={_handleSubmit} method="POST">
                 <div>
@@ -73,6 +73,6 @@ export default function Contact() {
                 </div>
                 <button type="submit">Submit</button>
             </form> 
-            </div>     
+            </Container>     
         );
     }
