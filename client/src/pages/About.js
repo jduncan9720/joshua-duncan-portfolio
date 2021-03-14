@@ -13,9 +13,9 @@ export default function About() {
                     <br />
                     <h3>Joshua Duncan</h3>
                     <h4>Full Stack Bootcamp Grad</h4>
-                    <FontAwesomeIcon style={{color: 'white', margin: "10px"}} icon='envelope' size="3x" />
-                    <FontAwesomeIcon style={{color: 'white', margin: "10px"}} icon={['fab', 'github']} size="3x"/>
-                    <FontAwesomeIcon style={{color: 'white', margin: "10px"}} icon={['fab', 'linkedin']} size="3x"/>
+                    <a href="mailto: jduncan97@gmail.com"><FontAwesomeIcon style={{color: 'white', margin: "10px"}} icon='envelope' size="3x" /></a>
+                    <a href="https://github.com/jduncan9720"><FontAwesomeIcon style={{color: 'white', margin: "10px"}} icon={['fab', 'github']} size="3x"/></a>
+                    <a href="https://www.linkedin.com/in/jduncan-9720/"><FontAwesomeIcon style={{color: 'white', margin: "10px"}} icon={['fab', 'linkedin']} size="3x"/></a>
                 </Col>
                 <Col className="bio" md={6} sm={12}>
                     <Row>
