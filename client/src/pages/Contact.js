@@ -13,11 +13,11 @@ export default function Contact() {
     function _handleChange(event) {
         const field = event.target.id;
         if (field === "name") {
-            setFormData({ name: event.target.value });
+            setFormData({ ...formData, name: event.target.value });
         } else if (field === "email") {
-            setFormData({ email: event.target.value });
+            setFormData({ ...formData, email: event.target.value });
         } else if (field === "message") {
-            setFormData({ message: event.target.value });
+            setFormData({ ...formData, message: event.target.value });
         }
     }
 
