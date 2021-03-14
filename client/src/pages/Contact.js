@@ -39,7 +39,14 @@ export default function Contact() {
       }
 
         return (
-            <Container>  
+            <Container className="bg-white mt-5">
+            <Row>
+                <Col md={12} className="text-center">
+                <h1>Contact Me:</h1>
+                </Col>
+            </Row>
+            <Row>
+            <Col md={12} className="formControl mt-3 mb-3">
             {console.log(formData)} 
             <form onSubmit={_handleSubmit} method="POST">
                 <div>
@@ -73,6 +80,10 @@ export default function Contact() {
                 </div>
                 <button type="submit">Submit</button>
             </form> 
+            </Col>
+            </Row>
             </Container>     
         );
     }
+
+    

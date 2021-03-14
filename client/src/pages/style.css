@@ -26,3 +26,7 @@
     font-family: 'Lato', sans-serif;
     text-shadow: 10px 10px 8px black;
 }
+
+input, label {
+    display:block;
+}
