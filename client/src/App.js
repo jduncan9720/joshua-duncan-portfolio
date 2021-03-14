@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ReactDOM from 'react-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faHome, faPalette, faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import { faHome, faPalette, faEnvelope, faGraduationCap} from '@fortawesome/free-solid-svg-icons'
 import Navbar from "./components/Navigation"
 import Home from "./pages/Home"
 import About from "./pages/About"
@@ -12,7 +12,7 @@ import Projects from "./pages/Projects"
 import Contact from "./pages/Contact"
 import Skills from "./pages/Skills"
 
-library.add(fab, faHome, faPalette, faEnvelope)
+library.add(fab, faHome, faPalette, faEnvelope, faGraduationCap)
 
 function App() {
   return (

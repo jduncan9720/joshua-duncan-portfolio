@@ -24,11 +24,21 @@ export default function About() {
                     My work for the last 20 years has been in the art publishing business with graphic design and overall business management being my main focus. I've worked with large publishers and distributors around the country and spent time in Hong Kong on printing projects. During that work though I've built websites and dealt with business online through self taught practices. I am focusing now on learning the full suite of resources to take my online development to the next level. While I love the art business, I would welcome a new challenge in the developement world. I am becoming fluent in HTML, CSS, JavaScript, Node.js, MongDB and many more languages and programs throughout my bootcamp experience. When not coding I love to spend time otdoors with my family. Fishing, hiking and enjoying wildlife are some of my hobbies. I'm an avid gamer and enjoy movies and entertainment media in general.</p>
                     </Row>
                     <Row>
-                        <Col>
+                        <Col md={6}>
                             <h4>Interests</h4>
+                            <ul>
+                                <li>Front and Back End developement</li>
+                                <li>Graphic Design</li>
+                                <li>Database Management</li>
+                            </ul>
                         </Col>
-                        <Col>
+                        <Col md={6}>
                             <h4>Education</h4>
+                            <ul className="eduList">
+                                <li><FontAwesomeIcon icon='graduation-cap' /> Universit of Utah <br/> Full Stack Development Bootcamp <br/> Certificate of Graduation
+                                 </li>
+                            </ul>
+                            
                         </Col>
                     </Row>
                 </Col>

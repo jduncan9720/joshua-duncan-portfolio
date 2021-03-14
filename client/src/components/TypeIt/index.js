@@ -1,9 +1,9 @@
 import TypeIt from "typeit-react";
 
-export default () => {
+export default (props) => {
   return (
     <div className="App">
-      <TypeIt element={"h3"} style={{color: 'white'}}>Full Stack Web Developement!</TypeIt>
+      <TypeIt element={props.element} style={{color: 'white'}} options={props.options}></TypeIt>
     </div>
   );
 };
