@@ -37,3 +37,16 @@ input, label {
     padding-left: 1.2em;
     text-indent: -1.2em;
 }
+
+label {
+    font-size: 30px;
+}
+
+input {
+    width: 90%;
+}
+
+textarea{
+    width: 90%;
+    height: 100px;
+}
