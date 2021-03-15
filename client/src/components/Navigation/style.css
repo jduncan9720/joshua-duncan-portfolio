@@ -1,5 +1,12 @@
+.navLinks{
+    color: white !important;
+}
+.navLinks:hover{
+    color:rgb(235, 127, 55) !important;
+}
+
 .social{
-    color:rgb(0, 174, 255) !important;
+    color:rgb(72, 136, 247) !important;
 }
 .social:hover{
     color:rgb(235, 127, 55) !important;
@@ -7,4 +14,7 @@
 
 .navMain {
     background-color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
 }
+

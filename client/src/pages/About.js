@@ -27,16 +27,19 @@ export default function About() {
                         <Col md={6}>
                             <h4>Interests</h4>
                             <ul>
-                                <li>Front and Back End developement</li>
+                                <li>Front/Back End Developement</li>
                                 <li>Graphic Design</li>
-                                <li>Database Management</li>
+                                <li>Video Gaming</li>
+                                <li>Fishing, Skiing, Outdoors</li>
+                                <li>Live Music</li>
                             </ul>
                         </Col>
                         <Col md={6}>
                             <h4>Education</h4>
                             <ul className="eduList">
-                                <li><FontAwesomeIcon icon='graduation-cap' /> Universit of Utah <br/> Full Stack Development Bootcamp <br/> Certificate of Graduation
-                                 </li>
+                                <li><FontAwesomeIcon icon='graduation-cap' /> University of Utah <br/> Full Stack Development Bootcamp <br/> Certificate of Graduation</li>
+                                <br/>
+                                <li><FontAwesomeIcon icon='graduation-cap' /> Utah Valley University<br/> Business Management <br/> Associates Degree</li>
                             </ul>
                             
                         </Col>

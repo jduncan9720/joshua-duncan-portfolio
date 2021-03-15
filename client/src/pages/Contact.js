@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Container, Row, Col, Image } from "react-bootstrap"
 import axios from "axios";
+import "./style.css"
 
 export default function Contact() {
 
@@ -82,8 +84,8 @@ export default function Contact() {
             </form> 
             </Col>
             <Col md={6} className="mt-3 mb-3">
-                <h1>Phone</h1>
-                <h1>Email</h1>
+                <h2><FontAwesomeIcon style={{color: 'white'}} icon='phone' /> Phone: <a href="tel:435-657-0500">(435) 503-1978</a></h2>
+                <h2><FontAwesomeIcon style={{color: 'white'}} icon='envelope' /> Email: <a href="mailto:jduncan97@gmail.com">jduncan97@gmail.com</a></h2>
             </Col>
             </Row>
             </Container>     

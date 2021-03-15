@@ -1,52 +1,74 @@
-.bio{
-    color: rgb(213, 226, 224);
+.bio {
+  color: rgb(255, 255, 255);
 }
 .picInfo {
-    color: rgb(213, 226, 224);
+  color: rgb(255, 255, 255);
 }
 
 .main {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .homeBack {
-    background-image: url("../images/bgimage3.jpg");
-    height: 100vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../images/bgimage3.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .landingDiv {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .mainName {
-    font-size: 100px;
-    font-family: 'Lato', sans-serif;
-    text-shadow: 10px 10px 8px black;
+  font-size: 100px;
+  font-family: "Lato", sans-serif;
+  text-shadow: 10px 10px 8px black;
 }
 
-input, label {
-    display:block;
+input,
+label {
+  display: block;
 }
 
 .eduList {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 1.2em;
-    text-indent: -1.2em;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1.2em;
+  text-indent: -1.2em;
 }
 
 label {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 input {
-    width: 90%;
+  width: 90%;
 }
 
-textarea{
-    width: 90%;
-    height: 100px;
+textarea {
+  width: 90%;
+  height: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li,
+label {
+  font-family: "Lato", sans-serif;
+  text-shadow: 10px 10px 8px black;
+}
+
+.frontEnd h3 {
+    margin-top: 40px;
+    color: white;
+}
+
+.frontEnd h1 {
+    color: rgb(72, 136, 247);
 }
