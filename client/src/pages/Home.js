@@ -14,7 +14,7 @@ export default function Home() {
                 element="h1"
                     options={{
                         strings: ["FULL STACK DEVELOPER"],
-                        speed: 120,
+                        speed: 100,
                         waitUntilVisible: true
                     }}/>
                 <br/>
@@ -22,7 +22,7 @@ export default function Home() {
                     element="h3"
                     options={{
                         strings: ["REACT, JAVASCRIPT, HTML, CSS", "NODE, EXPRESS, MYSQL, MONGODB"],
-                        speed: 120,
+                        speed: 100,
                         waitUntilVisible: true,
                         startDelay: 3000
                     }}/>
