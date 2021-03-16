@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/esm/Navbar'
+import Nav from 'react-bootstrap/esm/Nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Container, Row, Col, Image } from "react-bootstrap"
 import "./style.css"
