@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "proxy": "http://localhost:5000​",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
@@ -12,8 +11,7 @@
     "client": "cd client && npm run start",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "cd client/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
-    "dev": "concurrently --kill-others-on-fail \"npm run start\" \"npm run client\""
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "devDependencies": {
     "concurrently": "^4.1.2",
@@ -28,3 +26,4 @@
     "nodemailer": "^6.5.0"
   }
 }
+
