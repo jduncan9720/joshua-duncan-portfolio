@@ -9,9 +9,7 @@ app.use(express.json());
 app.use("/", router);
 app.listen(5000, () => console.log("Server Running"));
 
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
+app.use(express.static(path.resolve(__dirname, './client/build')));
 
 const contactEmail = nodemailer.createTransport({
     host: "smtp.gmail.com",
