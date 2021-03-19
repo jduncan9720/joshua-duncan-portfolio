@@ -9,7 +9,7 @@ function index(props) {
     const stepItems = steps.map((step => <li>{step}</li>));
     return (
 
-        <Card style={{ width: '25rem', color: 'black'}}>
+        <Card style={{ width: '20rem', color: 'black', backgroundColor: 'darkgrey', margin: "10px"}}>
         {console.log(steps)}
             <Card.Img variant="top" src={props.imagesrc} />
             <Card.Body>
@@ -17,7 +17,7 @@ function index(props) {
                 <Card.Text>
                     {props.text}
                 </Card.Text>
-                <Card.Title>What I did:</Card.Title>
+                <Card.Title>Highlights/Tech:</Card.Title>
                     <ul>{stepItems}</ul>
                 <Button variant="primary" href={props.repo}>Github Repo</Button>
                 <Button variant="primary" href={props.deploy}>Deployed App</Button>
