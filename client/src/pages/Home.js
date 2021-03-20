@@ -13,16 +13,17 @@ export default function Home() {
                 <TypeIt
                 element="h1"
                     options={{
-                        strings: ["FULL STACK DEVELOPER"],
+                        strings: ["FULL STACK ENGINEER"],
                         speed: 100,
                         waitUntilVisible: true
                     }}/>
+                <br/>
                 <br/>
                 <TypeIt
                     element="h3"
                     options={{
                         strings: ["REACT, JAVASCRIPT, HTML, CSS", "NODE, EXPRESS, MYSQL, MONGODB"],
-                        speed: 100,
+                        speed: 50,
                         waitUntilVisible: true,
                         startDelay: 3000
                     }}/>
