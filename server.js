@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const express = require("express");
 const router = express.Router();
 const PORT = process.env.PORT || 5000
@@ -8,7 +10,7 @@ const path = require('path')
 
 app.use(cors());
 app.use(express.json());
-// app.use("/", router);
+app.use("/", router);
 
 
 app.use(express.urlencoded({ extended: true }));
@@ -25,8 +27,8 @@ const contactEmail = nodemailer.createTransport({
     port: 587,
     secure: false,
     auth: {
-      user: "jduncan97@gmail.com",
-      pass: "",
+      user: process.env.EMAIL,
+      pass: process.env.PASS,
     },
   });
   
