@@ -39,13 +39,8 @@ const contactEmail = nodemailer.createTransport({
       console.log("Ready to Send");
     }
   });
-  let url;
-  if (process.env.NODE_ENV === 'production'){
-    url = `https://jduncandev-portfolio.herokuapp.com/contact`
-  } else {
-    url = "/contact"
-  }
-  router.post( url, (req, res) => {
+
+  router.post( "/contact", (req, res) => {
     const name = req.body.name;
     const email = req.body.email;
     const message = req.body.message; 
