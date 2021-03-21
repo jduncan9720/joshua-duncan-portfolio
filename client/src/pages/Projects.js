@@ -42,7 +42,7 @@ export default function Projects() {
                 imagesrc={witcher}
                 title="The Witcher Matching Game"
                 text="A mathing game based on The Witcher Video Game"
-                steps={["Navigation design with React Router", "Login form and passport authorization"]}
+                steps={["Made with Create-React-App", "React without using hooks", "Good practice with state management", "Photoshop used for image manipulation"]}
                 repo="https://github.com/jduncan9720/clicky-game"
                 deploy="https://jduncan9720.github.io/clicky-game/"
             />
@@ -64,8 +64,8 @@ export default function Projects() {
             />
             <Projectcard 
                 imagesrc={burger}
-                title="Weather Dashboard"
-                text="Get the weather and a 5 day forcast for any location. Saved searches."
+                title="Eat da Burger"
+                text="This is another full-stack web application that let's the user add burgers to a database and move them between 'devoured' and 'available' columns."
                 steps={["Node/Express", "Handlebars", "Sequelize,Mysql", "Full Stack Design"]}
                 repo="https://github.com/jduncan9720/burger"
                 deploy="https://obscure-coast-51520.herokuapp.com/"

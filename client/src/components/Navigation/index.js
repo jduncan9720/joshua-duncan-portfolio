@@ -35,7 +35,6 @@ function Navigation() {
             <Nav.Link href="/skills" className="navLinks">Skills</Nav.Link>
             <Nav.Link href="/projects" className="navLinks">Projects</Nav.Link>
             <Nav.Link href="/contact" className="navLinks">Contact</Nav.Link>
-            <Nav.Link onClick={darkLight}><FontAwesomeIcon icon='palette' /></Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Container>
