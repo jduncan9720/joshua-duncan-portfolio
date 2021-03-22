@@ -10,7 +10,7 @@ export default function About() {
         <Container>
             <Row className="justify-content-md-center main">
                 <Col className="picInfo text-center" md={6} sm={12}>
-                    <Image alt="Joshua Duncan" src={profileImg} className="mx-auto d-block" roundedCircle fluid />
+                    <Image alt="Joshua Duncan" src={profileImg} className="mx-auto d-block proPic" roundedCircle fluid />
                     <br />
                     <h3>Joshua Duncan</h3>
                     <h4>Full Stack Bootcamp Grad</h4>

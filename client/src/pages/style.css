@@ -70,3 +70,24 @@ label {
 .frontEnd h1 {
     color: rgb(72, 136, 247);
 }
+
+@media screen and (max-width: 540px) {
+    
+  .homeBack {
+    background-image: none;
+  }
+
+  .mainName {
+    font-size: 65px;
+    font-family: "Lato", sans-serif;
+    text-shadow: 10px 10px 8px black;
+  }
+
+  .bio {
+    margin: 10px;
+  }
+
+  .proPic {
+    width: 60%
+  }
+}
