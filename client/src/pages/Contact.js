@@ -30,7 +30,7 @@ export default function Contact() {
         setFormData({ status: "Sending" });  
         axios({
           method: "POST",
-          url: "/send",
+          url: "http://localhost:5000/send",
           data: formData,
         }).then((response) => {
             console.log("form data", formData)
