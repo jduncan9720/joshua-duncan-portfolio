@@ -28,7 +28,7 @@ export default function Contact() {
         setFormData({ status: "Sending" });  
         axios({
           method: "POST",
-          url: "https://jduncandev-portfolio.herokuapp.com/contact",
+          url: "http://localhost:5000/contact",
           data: formData,
         }).then((response) => {
             console.log("form data", formData)
