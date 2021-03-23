@@ -10,11 +10,7 @@ const path = require('path')
 
 app.use(cors());
 app.use(express.json());
-app.use("/", router);
-
-// axios.defaults.baseURL = 'https://jduncandev-portfolio.herokuapp.com/';
-// axios.defaults.headers.common['Authorization'] = AUTH_TOKEN;
-// axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
+// app.use("/", router);
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());

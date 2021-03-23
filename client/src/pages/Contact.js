@@ -4,6 +4,8 @@ import { Container, Row, Col, Image } from "react-bootstrap"
 import axios from "axios";
 import "./style.css"
 
+// axios.defaults.baseURL = 'https://jduncandev-portfolio.herokuapp.com/';
+
 export default function Contact() {
 
     const [formData, setFormData] = useState({
