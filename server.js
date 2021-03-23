@@ -11,9 +11,8 @@ const path = require('path')
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
-
 app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+
 // Serve up static assets (usually on heroku)
 if(process.env.NODE_ENV === "production") {
   // Set static folder
