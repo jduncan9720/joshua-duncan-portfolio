@@ -25,12 +25,14 @@ export default function Contact() {
         }
     }
 
+    const url = process.env.REACT_APP_API_URL;
+
     function _handleSubmit(event) {
         event.preventDefault();  
         setFormData({ status: "Sending" });  
         axios({
           method: "POST",
-          url: "http://localhost:5000/send",
+          url,
           data: formData,
         }).then((response) => {
             console.log("form data", formData)
