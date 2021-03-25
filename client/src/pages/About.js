@@ -3,7 +3,7 @@ import React from 'react'
 import { Container, Row, Col, Image } from "react-bootstrap"
 import profileImg from "../images/2020Profilesm.jpg"
 import "./style.css"
-import resume from "../downloads/JoshDuncan-Resume-2021.pdf"
+import resume from "../downloads/JD-Resume-2021.pdf"
 
 export default function About() {
     return (
@@ -23,7 +23,7 @@ export default function About() {
                         border: "1px solid white",
                         padding: "5px"
                     }}>
-                        <a href={resume} download="JoshDuncan-Resume-2021.pdf"><h4>Get my Resume</h4></a>
+                        <a href={resume} download="JD-Resume-2021.pdf"><h4>Get my Resume</h4></a>
                     </div>
 
                 </Col>
