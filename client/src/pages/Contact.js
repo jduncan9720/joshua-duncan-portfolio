@@ -25,7 +25,7 @@ export default function Contact() {
         }
     }
 
-    const url = process.env.REACT_APP_API_URL;
+    const url = process.env.REACT_APP_API_URL;  
 
     function _handleSubmit(event) {
         event.preventDefault();  
