@@ -34,6 +34,7 @@ export default function Contact() {
           data: formData,
         }).then((response) => {
             console.log("form data", formData)
+            console.log("form data", response)
           if (response.data.status === "sent") {
             alert("Message Sent");
             setFormData({ name: "", email: "", message: "", status: "Submit" });
