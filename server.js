@@ -50,6 +50,7 @@ const contactEmail = nodemailer.createTransport({
     };
     contactEmail.sendMail(mail, (error) => {
       if (error) {
+        console.log("error>>>>>>", error)
         res.json({ status: "failed" });
       } else {
         res.json({ status: "sent" });
