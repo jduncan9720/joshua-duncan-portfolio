@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Container, Row, Col, Image } from "react-bootstrap"
+import { Container, Row, Col, Image, Button } from "react-bootstrap"
 import axios from "axios";
 import "./style.css"
 
@@ -86,12 +86,12 @@ export default function Contact() {
                     required
                 />
                 </div>
-                <button type="submit">Submit</button>
+                <Button type="submit">Submit</Button>
             </form> 
             </Col>
             <Col md={6} className="mt-3 mb-3">
                 <h2><FontAwesomeIcon style={{color: 'white'}} icon='phone' /> Phone: <a href="tel:435-657-0500">(435) 503-1978</a></h2>
-                <h2><FontAwesomeIcon style={{color: 'white'}} icon='envelope' /> Email: <a href="mailto:jduncan97@gmail.com">jduncan97@gmail.com</a></h2>
+                <h2><FontAwesomeIcon style={{color: 'white'}} icon='envelope' /> Email: <a href="mailto:joshuaduncandev@gmail.com">joshuaduncandev@gmail.com</a></h2>
             </Col>
             </Row>
             </Container>     
