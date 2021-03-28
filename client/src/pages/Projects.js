@@ -41,7 +41,7 @@ export default function Projects() {
             <Projectcard 
                 imagesrc={witcher}
                 title="The Witcher Matching Game"
-                text="A mathing game based on The Witcher Video Game"
+                text="A matching game based on The Witcher Video Game"
                 steps={["Made with Create-React-App", "React without using hooks", "Good practice with state management", "Photoshop used for image manipulation"]}
                 repo="https://github.com/jduncan9720/clicky-game"
                 deploy="https://jduncan9720.github.io/clicky-game/"
